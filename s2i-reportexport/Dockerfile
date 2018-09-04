@@ -2,6 +2,7 @@ FROM pawatiamsupa/s2i-base
 
 VOLUME [ "/report" ]
 ENV TZ="Asia/Bangkok"
+EXPOSE 8080
 
 USER root
 # Necessary to permit running with a randomised UID
